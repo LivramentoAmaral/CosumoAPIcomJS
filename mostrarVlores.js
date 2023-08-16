@@ -25,7 +25,8 @@ function mostrarValores(filmes) {
                     <!-- Exibe o título do filme -->
                     <h5 class="card-title">${filme.title}</h5>
                     <!-- Exibe a sinopse do filme -->
-                    <p class="card-text">${filme.overview}</p>
+                    
+                    <p class="card-text limitar-linhas">${filme.overview}</p>
                 </div>
             </div>
         </div>`;
@@ -34,6 +35,8 @@ function mostrarValores(filmes) {
     // Insere o HTML dos filmes no elemento divFilmes
     divFilmes.innerHTML = `<div class="row">${filmesHTML.join("")}</div>`;
 }
+
+
 
 // Busca e preenche o menu suspenso de gêneros
 fetch(genresEndpoint)
