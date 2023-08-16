@@ -1,5 +1,5 @@
 // Chave de API para autenticação com a API do The Movie Database (TMDb)
-const apiKey = 'd44492877e938bd50f8babe5fa4c855f';
+const apiKey = '';
 
 // URL da API para obter a lista de gêneros de filmes
 const genresEndpoint = 'https://api.themoviedb.org/3/genre/movie/list?language=pt-BR&api_key=' + apiKey;
