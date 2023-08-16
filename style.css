@@ -1,0 +1,73 @@
+
+body{
+    padding: 0;
+    margin: 0;
+  background-color: #fafafa;
+  color: #555;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height:50%;
+}
+
+.card{
+    padding: 10px;
+    width: 15vw;
+    height: 30vh;
+    height: fit-content;
+}
+
+.card-body{
+    width: 100%;
+    height: 50%;
+}
+/* Estilos para a seção de filtragem por gênero */
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo para a logo */
+.logo {
+    display: block; /* A logo é exibida como um bloco */
+    width: 120px; /* Largura da logo */
+    height: 100px; /* Altura da logo */
+    background-color: #f1f1f1; /* Cor de fundo da logo */
+    text-align: center; /* Centraliza o conteúdo da logo horizontalmente */
+    line-height: 100px; /* Centraliza o conteúdo da logo verticalmente */
+    font-size: 24px; /* Tamanho da fonte da logo */
+    font-weight: bold; /* Peso da fonte */
+    color: #333; /* Cor do texto da logo */
+    text-decoration: none; /* Remove a decoração de texto */
+    border-radius: 50px;
+}
+
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Estilos para as opções do seletor de gênero */
+option {
+    font-size: 14px;
+}
+
+/* Estilos para a opção "Todos" */
+option[value=""] {
+    font-style: italic;
+    background-color: #ff8080;
+}
+
+
